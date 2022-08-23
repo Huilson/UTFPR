@@ -1,0 +1,4 @@
+Criar um jogo da velha, em dupla ou solo
+Deve se ter o nick dos jogadors
+Deve se ter o score
+Deve se ter a indicação de turnos
