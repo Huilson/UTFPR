@@ -1,0 +1,9 @@
+Cria um menu de terminal eletrônico para saque e deposito de dinheiro, com tratamento de exceções 
+caso as seguintes condições não abaixo sejam respeitadas:
+	- Saque de valor maior do que o limite de saque do terminal.
+	- Saque de valor maior do que o dinheiro disponivel no terminal.
+	- Saque de valor maior do que o dinheiro em conta do user.
+
+Use RuntimeException em um classe separada
+
+User try/catch
