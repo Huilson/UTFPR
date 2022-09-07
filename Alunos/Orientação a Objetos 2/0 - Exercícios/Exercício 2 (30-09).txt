@@ -1,0 +1,11 @@
+-Criar uma aplicação no modelo do CASE 1 ou no CASE 2 do qual você usou para fazer o Exercício 1 (JDBC)
+	-CASE 1: Conta Bancaria
+	-CASE 2: Petshop
+
+-Criar um CRUD para aplicação administrando os dados em um BD relacional via JPA
+	-Usar Hibernate (persist unit)
+	-Criar tabela
+	-Inserir dados
+	-Atualizar dados
+	-Consultar dados
+	-Excluir dados
