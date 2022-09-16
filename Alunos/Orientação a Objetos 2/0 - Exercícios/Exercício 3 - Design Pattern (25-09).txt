@@ -1,0 +1,14 @@
+Crie um programa onde um usuário precisa fazer uma entrega para seu amigo
+que mora longe. Regras:
+	-> O pacote precisa de nome e endereço do emissor e do destinatário.
+	-> O pacote só pode ser enviado se a taxa de transporte for paga.
+	-> Quem define o transporte é o correio, do qual valida se o desnatário e emissor 
+	existem, e se o pagamento foi aprovado.
+	-> O  usuário é informado do estado do pacote (enviado ou reprovado), ele deve ter uma 
+	segunda chance para corrigir o problema do pacote.
+	-> O pacote deve demorar 1~5 minuto para ser entrege, enquanto isso o correio deve 
+	aceitar outros pacotes (Dica: use threads).
+
+	-> Deixar comentado na classe main qual foi o design pattern utilizado.
+	-> Importar todo o projeto não somente a classe.
+	-> A modelagem UML é obrigatória.
