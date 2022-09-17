@@ -1,0 +1,8 @@
+No projeto CHAT, feito em sala:
+
+	-> Ajustar o projeto para que se adéque ao padrão de projeto proxy.
+
+	-> Objetivo: Evitar que usuários enviem mensagens indevidas, 
+	por exemplo palavras de baixo calão.
+
+	-> Modelagem UML é obrigatória!
