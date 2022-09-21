@@ -1,0 +1,6 @@
+Atualizar o Exercio 1 (CRUD JDBC) para o funcinamento no MongoDB
+	-> ter todas as operações do CRUD funcionando
+	-> modelagem UML é obrigatória
+	-> comentários no código também são essenciais
+
+Apresentação e entrega dia: 27/09/2022
