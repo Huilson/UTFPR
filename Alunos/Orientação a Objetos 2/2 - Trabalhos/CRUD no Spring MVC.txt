@@ -1,0 +1,13 @@
+Todas a interação com o user deve ser feita por VIEWS
+
+Separar regra de negocio, consultas a banco, interfaces, metódos de consultas, etc. em pacotes
+(ou seja, view, controller, service, dto, etc.)
+
+CRUB básico, consultar, cadastrar, atualizar e deletar tudo via Spring Framework
+
+Além do que foi pedido no trabalho anterior em relação ao CASE 1 e ao CASE 2 agora é preciso
+gerar um relatório: 
+	- Serviços a fazer (CASE 2), ou seja, do qual ainda não chegou na data
+	- Saldo da conta (CASE 1), se estiver aberta
+
+Não façam validação de login e senha SPRING SECURITY ficará para o projeto final
