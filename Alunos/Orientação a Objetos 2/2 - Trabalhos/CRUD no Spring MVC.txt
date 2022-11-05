@@ -1,6 +1,6 @@
-Todas a interação com o user deve ser feita por VIEWS
+Todas a interação com o user deve ser feita por VIEWS (html)
 
-Separar regra de negocio, consultas a banco, interfaces, metódos de consultas, etc. em pacotes
+Separar regras de negocio, consultas a banco, interfaces, metódos de consultas, etc. em pacotes
 (ou seja, view, controller, service, dto, etc.)
 
 CRUB básico, consultar, cadastrar, atualizar e deletar tudo via Spring Framework
