@@ -1,0 +1,10 @@
+Ter implementado todos os requesitos das versões passadas.
+
+Usar Spring Security para validação de Login e Senha.
+Usar BCrypt para criptografar as senhas.
+Salvar usuário, senha e role no banco.
+Cada usuário só pode ter acesso ao seu conteúdo. Exemplo: Dono de uma
+determinada conta só pode ver a sua conta. Dono de um animal só pode ver
+os serviços de seu animal.
+
+Data de entrega e apresentação 13/12
