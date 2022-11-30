@@ -1,0 +1,15 @@
+Estudar e apresentar de forma prática ou teórica uma tecnologia usada
+atualmente pelas empresas para o desenvolvimento de sistema.
+
+É válido, e, de certa forma, necessário:
+	- Exemplos práticos;
+	- Recurso aúdio-visual (slides, vídeos, etc.);
+	- Relatos de empresas (funcionários);
+	- Apresentar justificativa para a escolha do tema.
+
+O que posso escolher como tema:
+	Linguagens de programação;
+	Frameworks;
+	Design Patterns;
+	APIs;
+	Etc.
