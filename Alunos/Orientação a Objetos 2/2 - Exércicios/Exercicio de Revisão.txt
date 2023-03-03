@@ -2,4 +2,4 @@ Veja o Slide de Introdução para escolhar qual caso de uso você irá fazer
 
 Data de Entrega: 30/03
 
-Nome do Arquivo: nome_completo + exercicio_revisão"
+Nome do Arquivo: "nome_completo + exercicio_revisão"
