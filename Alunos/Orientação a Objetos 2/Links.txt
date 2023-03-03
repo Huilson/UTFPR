@@ -1,3 +1,0 @@
-JPA: https://docs.spring.io/spring-security/site/docs/4.2.3.RELEASE/reference/htmlsingle/#ldap-authentication
-
-MONGO: https://www.djamware.com/post/5b2f000880aca77b083240b2/spring-boot-security-and-data-mongodb-authentication-example
