@@ -1,0 +1,22 @@
+Criar um servidor que receba N pessoas (objeto) via cliente X
+OBS: o IMC deve ser 0 ou nulo
+
+O cliente vai enviar um objeto Pessoa (ou vários objetos Pessoa) 
+sem o IMC calculado
+
+A classe PESSOA deve ter:
+	-Id (para o banco)
+	-Nome
+	-Peso
+	-Altura
+	-Idade
+	-IMC
+
+O servidor deve calcular o IMC antes de salvar no banco
+O servidor vai armazenar essa pessoa no banco (a escolha do banco é
+sua)
+
+Um segundo cliente Y deve consultar no servidor, uma pessoa e essa
+consulta deve retorna o nome da pessoa e o IMC.
+
+Data de entraga 21/03
