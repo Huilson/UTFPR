@@ -1,0 +1,13 @@
+Criar um menu:
+
+cadastrar um aluno e uma disciplina via console
+
+atualizar a media do aluno e o nome da disciplina
+
+excluir um aluno ou disciplina
+
+consultar os alunos cadastrados na disciplina
+
+consultar os alunos reprovado (media<6)
+
+Entrega 17/03
