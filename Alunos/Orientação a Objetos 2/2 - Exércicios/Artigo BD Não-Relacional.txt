@@ -6,7 +6,7 @@ relacional?
 um banco de dados não relacional? (Exemplo: Youtube)
 
 Nome do Documento: "Nome do Aluno" + Artigo
-Exemplo: Fulano Artigo
+Exemplo: Fulano Artigo.pdf
 
 Data de Entrega: 14/04
 

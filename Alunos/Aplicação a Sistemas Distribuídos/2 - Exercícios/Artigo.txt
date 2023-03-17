@@ -2,7 +2,7 @@ Descrição do artigo: Pesquisar sobre o uso e aplicabilidade da Blockchain.
 
 
 Nome do Documento: "Nome do Aluno" + Artigo
-Exemplo: Fulano Artigo
+Exemplo: Fulano Artigo.pdf
 
 Data de Entrega: 29/03
 
