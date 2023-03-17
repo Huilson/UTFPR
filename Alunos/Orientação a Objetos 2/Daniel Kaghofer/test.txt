@@ -1,0 +1,5 @@
+String pasta = System.getProperty("user.dir") + "/";
+            String nome = "arquivo.txt";
+            File file = new File(pasta + nome);
+            FileOutputStream gerarArquivo = new FileOutputStream(file);
+            ObjectOutputStream saida = new ObjectOutputStream(gerarArquivo);
