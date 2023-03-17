@@ -1,0 +1,14 @@
+DESCRIÇÃO:
+1- Arquivos como video, imagens, etc, se beneficiam de uma busca 
+relacional?
+
+2- E como funcionaria o armazenamento de videos e imagens em
+um banco de dados não relacional? (Exemplo: Youtube)
+
+Nome do Documento: "Nome do Aluno" + Artigo
+Exemplo: Fulano Artigo
+
+Data de Entrega: 14/04
+
+FORMATAÇÃO E MODELO ABNT (ARTIGO)
+https://normas-abnt.espm.br/index.php?title=Formata%C3%A7%C3%A3o_do_artigo
