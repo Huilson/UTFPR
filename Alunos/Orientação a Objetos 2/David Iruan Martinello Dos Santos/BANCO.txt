@@ -1,0 +1,27 @@
+CREATE TABLE Profissionais (
+    codigoProfissional int ,
+    nome VARCHAR(255) ,
+    funcao VARCHAR (255),
+	PRIMARY KEY (codigoProfissional)
+    );
+	
+CREATE TABLE Animais (
+    codigoAnimal int ,
+    nome VARCHAR(255) ,
+    especie VARCHAR (255),
+	codigoProfissional int,
+    PRIMARY KEY (codigoAnimal),
+    FOREIGN KEY (codigoProfissional) REFERENCES Profissionais(codigoProfissional)
+);
+
+CREATE TABLE Servicos (
+    codigoServico int ,
+    nome VARCHAR(255) ,
+    descricao VARCHAR (255),
+	dataServico timestamp,
+	codigoAnimal int,
+	codigoProfissional int,
+    PRIMARY KEY (codigoServico),
+	FOREIGN KEY (codigoAnimal) REFERENCES Animais(codigoAnimal),
+    FOREIGN KEY (codigoProfissional) REFERENCES Profissionais(codigoProfissional)
+);
