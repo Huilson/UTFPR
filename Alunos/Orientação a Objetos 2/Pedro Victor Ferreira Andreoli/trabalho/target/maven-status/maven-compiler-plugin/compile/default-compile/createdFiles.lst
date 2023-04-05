@@ -1,0 +1,16 @@
+utfpr\trabalho\Trabalho.class
+utfpr\trabalho\dao\FuncionarioDAO.class
+utfpr\trabalho\dao\CRUD.class
+utfpr\trabalho\util\Factory.class
+utfpr\trabalho\model\Servico_.class
+utfpr\trabalho\dao\AbstractDAO.class
+utfpr\trabalho\model\Animal_.class
+utfpr\trabalho\model\Funcionario.class
+utfpr\trabalho\model\Funcionario_.class
+utfpr\trabalho\dao\TipoFuncionarioDAO.class
+utfpr\trabalho\dao\ServicoDAO.class
+utfpr\trabalho\model\TipoFuncionario.class
+utfpr\trabalho\model\TipoFuncionario_.class
+utfpr\trabalho\dao\AnimalDAO.class
+utfpr\trabalho\model\Servico.class
+utfpr\trabalho\model\Animal.class
