@@ -1,0 +1,16 @@
+- Usar um modelo de design pattern para realizar o exercicio proposto:
+
+O pacote precisa de nome e endereço do emissor e do destinatário.
+
+O pacote só pode ser enviado se a taxa de transporte for paga.
+
+Quem define o transporte é o correio, do qual valida se o destinatário e emissor 
+existem, e se o pagamento foi aprovado.
+
+O  usuário é informado do estado do pacote (enviado ou reprovado), ele deve ter 
+uma segunda chance para corrigir o problema do pacote.
+
+O pacote deve demorar 1~5 minutos para ser entregue, enquanto isso o correio 
+deve aceitar outros pacotes (Dica: use threads).
+
+Entrega dia 05/05
