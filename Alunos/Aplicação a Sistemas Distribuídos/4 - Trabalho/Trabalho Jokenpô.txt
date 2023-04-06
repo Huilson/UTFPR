@@ -1,11 +1,12 @@
 O trabalho deve ser em dupla ou solo
 
+1 Modelagem e UML e comentários no código
 1 Ponto pela entraga no dia
 1 Ponto pela prova de autoria
 1 Ponto pela implentação do exercicio
 1 Ponto pela apresentação
 2 Pontos Multi Jogadores por tela/app (sockets & threads)
-3 Pontos pelo tratamento de falhas (exemplo: saída)
+2 Pontos pelo tratamento de falhas (exemplo: saída)
 1 Ponto pelos adicionais
 
 Data de Entrega e Apresentação -> (26 -> Lucas e Kathleen) 28 de Abril
