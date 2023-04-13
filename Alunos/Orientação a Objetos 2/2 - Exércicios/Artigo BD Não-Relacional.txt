@@ -1,5 +1,5 @@
 DESCRIÇÃO:
-1- Arquivos como video, imagens, etc, se beneficiam de uma busca 
+1- Como arquivos, videos, imagens, etc, se beneficiam de uma busca 
 relacional?
 
 2- E como funcionaria o armazenamento de videos e imagens em
