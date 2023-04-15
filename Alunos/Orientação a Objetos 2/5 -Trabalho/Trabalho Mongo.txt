@@ -1,0 +1,16 @@
+Usar o caso de uso escolhido do qual foi feito na JPA
+
++2 Pontos pela implementação do caso de uso
++2 Pontos pela modelagem UML e comentários
++2 Por funcionamento do CRUD EM MONGODB
+
++2 KARAOKE -> precisa salvar as letras das musicas, além de fazer
+o CRUD (salvar, editar, excluir).
+
++2 ZOO -> é preciso salvar a descrição dos animais como nome cientifico,
+familia, comportamentos, etc. Além do CRUD (salvar, editar, excluir).
+
++1 Entrega
++1 Prova de autoria e apresentação
+
+ENTREGA -> Dia 05/05
