@@ -1,0 +1,13 @@
+ANDROID
+View Binding vs findViewById<>()
+
+KOTLIN
+lateinit
+lazy
+
+Todos os que fizeram o resumo (+0,25 no Trabalho Final)
+
+Pelo menos 4 linhas
+
+
+OBRIGATÓRIO: Citar exemplos de implementação
