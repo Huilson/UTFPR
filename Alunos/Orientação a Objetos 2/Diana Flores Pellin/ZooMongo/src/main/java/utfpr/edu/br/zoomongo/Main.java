@@ -53,7 +53,6 @@ public class Main {
             System.out.println("0 - Sair");
             System.out.println("");
             opcao = scan.nextInt();
-            System.out.println("====================================================");
 
             switch (opcao) {
                 case 0:
@@ -72,6 +71,7 @@ public class Main {
                     System.out.println("Endereço: ");
                     endereco = scan.next();
                     System.out.println("Salário: ");
+                    scan.nextLine();
                     salario = scan.nextBigDecimal();
 
                     Document novoFuncionario = new Document("nome", nome_funcionario)
