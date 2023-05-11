@@ -1,0 +1,101 @@
+View Binding é uma forma mais eficiente de acessar views, enquanto FindViewById é uma abordagem mais antiga e verbosa,
+o View Binding permite que acesse views diretamente como propriedades de uma classe gerada, enquanto FindViewById requer que você encontre views usando seu ID
+para usar View Binding, é preciso adicionar a biblioteca ao projeto e criar uma instância da classe gerada para o layout que você deseja vincular, 
+em seguida é possivel acessar as views diretamente como propriedades da classe gerada.
+
+1 - Adicione a biblioteca View Binding ao seu arquivo build.gradle (app):
+android {
+    ...
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+2 - No seu layout XML (por exemplo, activity_main.xml), adicione um elemento raiz com o atributo android:id definido. Por exemplo:
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    ...
+</LinearLayout>
+
+3 - No seu código Java ou Kotlin, declare uma variável de classe para a classe de vinculação gerada e
+inicialize-a usando o método inflate() da classe LayoutInflater. Por exemplo, em uma activity chamada MainActivity:
+
+class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        // agora você pode acessar as views como propriedades da classe binding
+        binding.mainLayout.setBackgroundColor(Color.RED)
+    }
+}
+
+Lateinit é usado para propriedades não nulas que serão inicializadas posteriormente,
+enquanto lazy é usado para propriedades que precisam ser inicializadas apenas quando forem acessadas pela primeira vez.
+Lateinit é mais permissivo, pois não verifica se a propriedade foi inicializada antes do uso, enquanto lazy garante que a inicialização ocorra apenas uma vez.
+
+lateinit
+class MyActivity : AppCompatActivity() {
+    private lateinit var myTextView: TextView
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_my)
+
+        // Inicializando a propriedade myTextView posteriormente
+        myTextView = findViewById(R.id.my_text_view)
+
+        // Usando a propriedade myTextView
+        myTextView.text = "Hello, world!"
+    }
+}
+
+lazy
+class MyActivity : AppCompatActivity() {
+    private val myString: String by lazy {
+        // Realizando alguma operação complexa para inicializar a propriedade
+        "Hello, world!"
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_my)
+
+        // Usando a propriedade myString
+        val textView = findViewById<TextView>(R.id.my_text_view)
+        textView.text = myString
+    }
+}
+
+
+                              __
+                            .d##b
+                          .' TO#;\
+                         /  : TP._;
+                        / _.;  :Tb|
+                       /   /   ;j#j
+                   _.-"       d####
+                 .' ..       d####;
+                /  /P'      d$###P. |\
+               /   "      .d$##P' |\^"l
+             .'           `T$P^"""""  :
+         ._.'      _.'                ;
+      `-.-".-'-' ._.       _.-"    .-"
+    `.-" _____  ._              .-"
+   -(.g#######b.              .'
+     ""^^T###P^)            .(:
+       _/  -"  /.'         /:/;
+    ._.'-'`-'  ")/         /;/;
+ `-.-"..--""   " /         /  ;
+.-" ..--""        -'          :
+..--""--.-"         (\      .-(\
+  ..--""              `-\(\/;`
+    _.                      :
+                            ;`-
+                           :\
+                           ;
