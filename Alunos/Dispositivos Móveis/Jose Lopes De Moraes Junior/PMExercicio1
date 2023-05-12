@@ -1,0 +1,25 @@
+ANDROID
+View Binding vs findViewById<>()
+
+diferença de perfomance, enquanto no findViewById, um campo é gerado para cada View com um ID, no ViewBinding, 
+ocorrerá apenas uma pasagem pela hierarquia, extraindo as Views com IDs.
+
+KOTLIN
+
+lazy: só pode ser utilizado em variaveis que não podem ser alteradas, sendo assim  a função sempre 
+terá o mesmo valor da primeira vez que foi instanciada
+
+private val adapter: NoteListAdapter by lazy {
+        NoteListAdapter(notes(), this)
+    }
+    private val recyclerView: RecyclerView by lazy {
+        note_list_recyclerview
+    }
+
+lateinit: já este serve para o contrário do lazy, sendo aplicado somente em variaveis que podem ser alteradas
+e não permite variaveis nullables
+
+private lateinit var adapter: NoteListAdapter
+private lateinit var recyclerView: RecyclerView
+
+as duas servem para inicialização atrasada ou tardia de uma variável
