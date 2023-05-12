@@ -1,6 +1,10 @@
 Para dia 18/05 entregar a modelagem dos Layouts que serão usados para
 realizar o trabalho.
 
+Deixar todas as modeladens em único arquivo.
+
+FERRAMENTA: https://ninjamock.com/
+
 Vale 1 Ponto.
 
 
