@@ -1,0 +1,29 @@
+Para dia 18/05 entregar a modelagem dos Layouts que serão usados para
+realizar o trabalho.
+
+Vale 1 Ponto.
+
+
+Caso de Uso
+-Fazer um aplicativo (em Kotlin, usando View Binding) para um hotel de pets.
+Um tutor pode ter vários pets, inclusive, o pet também pode ter um mais do
+que um co-tutor.
+
+Um tutor pode ter vários pets.
+
+A ideia do HotelPet é abriga os animais enquantos os tutores estiverem ausentes.
+
+É preciso ter um formulário de contato dos tutores, e do co-tutores
+(para o co-tutor a informações pode ser mais esmiuçada).
+
+Depois que um tutor fez o cadastro ele pode fazer ao check-in dos pets
+
+Cada espécie deve ter um lugar reservado no hotel. Exemplo:
+Andares 2 e 3 são para gatos...
+Andares 4 e 5 são para cãos...
+
+Deve ter na ficha do pet onde ele está, sua dieta, e seu comportamento.
+
+Depois o tutor ou co-tutor faz o check-out.
+
+Adicionais: Gerenciar custos.
