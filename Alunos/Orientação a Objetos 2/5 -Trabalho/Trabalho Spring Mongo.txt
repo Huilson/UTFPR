@@ -1,0 +1,14 @@
+4 Pontos pela lógica:
+	-Ranking (Karoake)
+	-Serviços(Zoologico)
+
+1 Ponto - Cadastrar (TUDO!)
+1 Ponto - Atualizar (TUDO!)
+1 Ponto - Excluir (TUDO!)
+1 Ponto - Pesquisar (por nome)
+
+1 Ponto - Views
+
+1 Ponto - Extras
+
+DATA FINAL: 08/06
