@@ -1,13 +1,16 @@
-4 Pontos pela lógica:
+1 Ponto Padrões do MVC
+
+3 Pontos pela lógica:
 	-Ranking (Karoake)
 	-Serviços(Zoologico)
 
-1 Ponto - Cadastrar (TUDO!)
-1 Ponto - Atualizar (TUDO!)
-1 Ponto - Excluir (TUDO!)
-1 Ponto - Pesquisar (por nome)
+CRUD EM MONGO
+1 Ponto - Cadastrar (pelo menos 2 entidades)
+1 Ponto - Atualizar (pelo menos 2 entidades)
+1 Ponto - Excluir (pelo menos 2 entidades)
+1 Ponto - Pesquisar (pelo menos 2 entidades)
 
-1 Ponto - Views
+1 Ponto - Views (HTML & Thymeleaf)
 
 1 Ponto - Extras
 
