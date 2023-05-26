@@ -30,4 +30,4 @@ Deve ter na ficha do pet onde ele está, sua dieta, e seu comportamento.
 
 Depois o tutor ou co-tutor faz o check-out.
 
-Adicionais: Gerenciar custos.
+Adicionais: Gerenciar custos, carregar imagens dos pets.
