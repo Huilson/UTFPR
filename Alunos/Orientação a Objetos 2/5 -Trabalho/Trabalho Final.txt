@@ -9,3 +9,5 @@ KARAOKE -> Ranking
 O relatorio deve conter o nome cliente, o nome da musica, a nota, a data/hora que cantado
 
 Se possível organizar em ordem decrescente para as notas e para as datas do serviço
+
+Apresentação do Trabalho final 06/07
