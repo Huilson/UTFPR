@@ -1,9 +1,0 @@
-Data da apresentação dia 07/07 ou 05/07, à escolha do aluno. 
-Mandar email para huilsonlorenzi@utfpr.edu.br para escolher e confirmar sua data.
-
-
-A apresentação deve ser de um tema atual voltado as áreas do curso.
-O seminário deve conter uma apresentação visual (slides)
-e uma apresentação prática (um exemplo de código, um vídeo, relatos de quem usa/trabalha, etc.)
-
-A apresentação deve ser entre 8 a 15 minutos.
