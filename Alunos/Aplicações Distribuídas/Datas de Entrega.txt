@@ -1,0 +1,3 @@
+Exercicio 1 -> 25/08
+Como enviar -> O líder do grupo deve postar o exercicio em sua pasta
+com o nome "Exercicio1.zip"
