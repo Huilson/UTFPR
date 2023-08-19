@@ -12,3 +12,4 @@ Por fim o cliente recebe a informação e informe no console o seu IMC
 e em qual classificação se encontra.
 
 Dica: Deve se passar um objeto via socket usando a interface Serializable.
+Use ObjectInputStream para entrada e ObjectOutpout para saída.
