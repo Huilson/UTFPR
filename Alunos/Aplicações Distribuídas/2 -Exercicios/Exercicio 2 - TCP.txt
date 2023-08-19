@@ -1,0 +1,14 @@
+Criar um arquivo JAVA = cliente e 
+uma classe pessoa com = nome, idade, peso, altura e imc
+
+O cliente deve ler as informações de nome, idade, peso, altura e imc
+e depois enviar para o servidor.
+
+Para isso crie um arquivo JAVA = servidor
+O servidor irá fazer os calculos para determinar o IMC e retornar as
+informações para o cliente.
+
+Por fim o cliente recebe a informação e informe no console o seu IMC
+e em qual classificação se encontra.
+
+Dica: Deve se passar um objeto via socket usando a interface Serializable.
