@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Forca</title>
+    <link th:href="@{/styles/style.css}" rel="stylesheet" />
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>Jogo da Forca </h1>
+    <h2>Maiara do Nascimento</h2>
+    <h2>Matheus Emanoel Guimarães da Silva</h2>
+</div>
+<div class="wrapper">
+    <p id="perdeu">Fim de Jogo! VOCÊ PERDEU</p>
+    <p id="ganhou">Parabéns! VOCÊ GANHOU</p>
+    <div id="dificuldadeButtons" class="container">
+        <button id="facil">Fácil</button>
+        <button id="medio">Médio</button>
+        <button id="dificil">Dificil</button>
+    </div>
+
+    <div id="jogo">
+        <p>Use o alfabeto abaixo para adivinhar a palavra. </p>
+        <p class="left" id="mylives"></p>
+        <!--<div class="container">
+            <button id="hint">Dica</button>
+        </div>-->
+        <div id="buttons" >
+        </div>
+    </div>
+
+    <div id="infos">
+        <p id="catagoryName"></p>
+        <canvas class="left" id="stickman">Navegador NÃO suporta tag HTML5 Canvas</canvas>
+        <div id="hold"></div>
+        <div class="container">
+            <button id="reset">Novo Jogo</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" th:src="@{/js/actions.js}"></script>
