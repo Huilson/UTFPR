@@ -1,6 +1,6 @@
 Exercicio 1, HotelPet -> 12/09
 Como enviar -> Postar o exercicio em sua pasta com o nome "SeuNome-E1.zip"
 
-Exercicio 2, CRUD JPA -> 05/09
+Exercicio 2, CRUD JPA -> 08/09
 Obs.: Fazer um crud funcional da entidade pessoa e profissão, com menu.
 Como enviar -> Postar o exercicio em sua pasta com o nome "SeuNome-E2.zip"
