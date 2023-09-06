@@ -6,6 +6,6 @@ Exercicio 2 -> 23/08
 IMC com TCP
 Como enviar -> Postar o exercicio em sua pasta com o nome "SeuNome-E2.zip"
 
-Exercicio 3 -> 06/09
+Exercicio 3 -> 08/09
 IMC com UDP
 Como enviar -> Postar o exercicio em sua pasta com o nome "SeuNome-E3.zip"
