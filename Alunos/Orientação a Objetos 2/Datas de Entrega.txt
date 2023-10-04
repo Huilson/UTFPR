@@ -5,6 +5,7 @@ Exercicio 2, CRUD JPA -> 08/09
 Obs.: Fazer um crud funcional da entidade pessoa e profissão, com menu.
 Como enviar -> Postar o exercicio em sua pasta com o nome "SeuNome-E2.zip"
 
-Trabalho 1, HotelPet com Mongodb e Java -> 13/10
+Trabalho 1, HotelPet com Mongodb e Java -> 16/10
 Obs.: Adicionar nas funcionalidades do CRUD no bando de dados do MONGODB
 Como enviar -> Postar o exercicio em sua pasta com o nome "SeuNome-T1.zip"
+Apresentações -> apartir do dia 17/10
