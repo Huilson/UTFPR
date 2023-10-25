@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <link type="text/css" rel="stylesheet"
+              href="../css/materialize.min.css" media="screen,projection" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <title>ALUNO</title>       
+    </head>
+    
+    <body class="grey lighten-3">
+        <div id="listaDeAlunos">
+            <h3 class="main-title center">Lista de Alunos</h3>
+            <div class="container">
+                <table class="striped responsive-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align: center;">Nome</th>
+                            <th style="text-align: center;">Data de Nascimento</th>
+                            <th style="text-align: center;">Ações</th>
+                        </tr>
+                    </thead>
+                    <tr #0">
+                        <td style="text-align: center;"><span #1"></span></td>
+                        <td style="text-align: center;"><span #2"></span></td>
+                        <td style="text-align: center;">
+                            <a #3 title="Visualizar">
+                                <i class="tiny material-icons ">perm_contact_calendar</i>
+                            </a>
+                            <a #4 title="Cadastrar disciplina">
+                                <i class="tiny material-icons ">school</i>
+                            </a>
+                            <a #5 title="Notas">
+                                <i class="tiny material-icons ">spellcheck </i>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div><!-- Fim DIV listar alunos -->
+        <script type="text/javascript" src="../js/materialize.min.js"></script>
+    </body>
+</html>

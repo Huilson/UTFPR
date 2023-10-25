@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+<meta charset="UTF-8" />
+<link type="text/css" rel="stylesheet"
+  href="../../css/materialize.min.css" media="screen,projection" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet" />
+<title>DISCIPLINA</title>
+<script type="text/javascript"
+    src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body class="grey lighten-3">
+<div id="formularioEdicao" class="container">
+  <h3 class="main-title center">Cadastrar Disciplina para <span th:text="${aluno.nome}"></span> </h3>
+    <div class="row">
+      <form class="col s12" action="#" #1 #2 method="post">
+        <div class="section">
+          <h5>Disciplina</h5>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="nome" type="text" class="validate" #3 name="nome" />
+                    <label for="nome">Nome</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="professor" type="text" class="validate" #4 name="professor" />
+                    <label for="nivel">Professor</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="professor" type="number" class="validate" #5 name="professor" />
+                    <label for="nivel">Semestre</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12 center">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Salvar Habilidade
+              </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div> <!-- Fim do formulario de edicao -->
+
+  <script type="text/javascript" src="../../js/materialize.min.js"></script>
+
+</body>
+</html>
