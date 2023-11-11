@@ -1,0 +1,26 @@
+PEDIDO -> Igor, Vitor Milke, Gabriel, Alexandre, Lucas, Guilherme
+	- Item (nome do item)
+	- Quantidade
+	- Valor
+	- Status ("CRIADO", "PAGO", "CANCELADO")
+
+PAGAMENTO -> Mathues, David, Jefferson, José, Maiara
+	- Item (nome do item)
+	- Valor
+	- Status ("AGUARDANDO", "CONFIRMADO", "CANCELADO")
+
+ESTOQUE -> Fábio, Karine, Vitor Marcante, Carla, Newtow, Thiago
+	- Item (nome do item)
+	- Quantidade
+
+Cada entidade deve estar em um DATABASE separado
+Fazer mapeamento das entidades conforme descrição abaixo:
+	- Ao fazer o pedido deve se descontar a quantidade do item pedido no estoque, além de validar se há
+quantidade suficiente do mesmo.
+	- Se houver quantidade suficiente deve gerar um status de pagamento. Ex.: "CRIADO" para o pedido 
+e "AGUARDADO" para o pagamento.
+	- Se for cancelado o pagamento ou o pedido deve ser retornado os itens ao estoque.
+	- Se o pagamento for confirmado deve ser alterado o status do pedido.
+	- CRUD obrigatório
+
+DATA DE ENTREGA 01/12
