@@ -9,3 +9,8 @@ Trabalho 1, HotelPet com Mongodb e Java -> 16/10
 Obs.: Adicionar nas funcionalidades do CRUD no bando de dados do MONGODB
 Como enviar -> Postar o exercicio em sua pasta com o nome "SeuNome-T1.zip"
 Apresentações -> apartir do dia 17/10
+
+Trabalho Final, HotelPet com Mongodb, Java, SpringMVC
+Obs.: Seguir padrão MVC, CRUD funcional com Views
+Como enviar -> Postar o exercicio em sua pasta com o nome "SeuNome-T2.zip"
+Apresentações -> apartir do dia 01/12
