@@ -1,15 +1,15 @@
-PEDIDO -> Igor, Vitor Milke, Gabriel, Alexandre, Lucas, Guilherme
+PEDIDO -> Igor, Vitor Milke, Gabriel, Alexandre, Lucas, Guilherme, Victor G
 	- Item (nome do item)
 	- Quantidade
 	- Valor
 	- Status ("CRIADO", "PAGO", "CANCELADO")
 
-PAGAMENTO -> Mathues, David, Jefferson, José, Maiara
+PAGAMENTO -> Mathues, David, Jefferson, José, Maiara, Luan
 	- Item (nome do item)
 	- Valor
 	- Status ("AGUARDANDO", "CONFIRMADO", "CANCELADO")
 
-ESTOQUE -> Fábio, Karine, Vitor Marcante, Carla, Newtow, Thiago
+ESTOQUE -> Fábio, Karine, Vitor Marcante, Carla, Newtow, Thiago, Fernando
 	- Item (nome do item)
 	- Quantidade
 
