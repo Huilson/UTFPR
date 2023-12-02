@@ -1,0 +1,9 @@
+br\com\eamais\pagamentos\config\Configuracao.class
+br\com\eamais\pagamentos\model\Status.class
+br\com\eamais\pagamentos\service\PagamentoService.class
+br\com\eamais\pagamentos\http\PedidoClient.class
+br\com\eamais\pagamentos\controller\PagamentoController.class
+br\com\eamais\pagamentos\PagamentosApplication.class
+br\com\eamais\pagamentos\model\Pagamento.class
+br\com\eamais\pagamentos\repository\PagamentoRepository.class
+br\com\eamais\pagamentos\dto\PagamentoDto.class
