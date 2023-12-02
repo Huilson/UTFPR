@@ -1,0 +1,10 @@
+SEMINÁRIO
+
+1- Em dupla de 2
+2- Uma apresentação de 8 a 10 minutos
+3- Qualquer tecnologia do qual possua familiaridade
+	3.a- API, Framework, linguagem, metodologia, IDEs, hardware, etc.
+
+4- Data de apresentação e entrega: 08/12
+5- Precisa ter uma apresentação de slides (PDF), e postar no GIT.
+
