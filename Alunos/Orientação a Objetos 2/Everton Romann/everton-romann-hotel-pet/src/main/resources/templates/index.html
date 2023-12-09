@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>HotelPet</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        
+
+    </head>
+    <body>
+        <header>
+            <nav class="top-nav blue">
+                <div class="nav-wrapper">
+                    <div class="row">
+                        <div class="col s12">
+                            <!-- Dropdowns Structure -->
+                            <ul id="ddCadastros" class="dropdown-content">
+                                <li><a href="/andar/andar" class="blue-text">Andar</a></li>
+                                <li><a href="/tutor/tutor" class="blue-text">Tutor</a></li>
+                                <li><a href="/pets/pets" class="blue-text">Pets</a></li>
+                            </ul>
+                            <ul id="ddServicos" class="dropdown-content">
+                                <li><a href="/checkin/checkin" class="blue-text">Check-in</a></li>
+                                <li><a href="#!" class="blue-text">Check-out</a></li>
+                            </ul>
+                                                        
+                            <ul class="left hide-on-med-and-down">
+                                <li><a class="" href="/">Hotel Pet<i class="material-icons left">pets</i></a></li>
+                                <li><a class="dropdown-trigger" href="#" data-target="ddCadastros">Cadastros<i class="material-icons right">arrow_drop_down</i></a></li>
+                                <li><a class="dropdown-trigger" href="#" data-target="ddServicos">Hospedagem<i class="material-icons right">arrow_drop_down</i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>              
+            </nav>
+        </header>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var drop = document.querySelectorAll('.dropdown-trigger');
+                M.Dropdown.init(drop, {
+                    coverTrigger: false,
+                    hover: true
+                });
+            });
+        </script>
+
+
+    </body>
+</html>
