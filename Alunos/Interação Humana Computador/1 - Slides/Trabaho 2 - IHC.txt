@@ -2,4 +2,6 @@ MAPEAR UM PERSONA (ver slide 60)
 	Informações Demográficas: Nome, idade, endereço, local de trabalho, função, salário, informação familiar.
 	Comportamentos: O que gosta e o que não gosta dentro e fora do local de trabalho.
 	Necessidades: O quer deseja da vida, sonhos, hobbies, etc.
+
+Criar no minimo 5 perguntas para entrevistar a persona do outro grupo.
 	
