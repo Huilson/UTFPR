@@ -1,0 +1,8 @@
+keytool -list -v -keystore "C:\Users\_\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+SUBSTITUA O _ POR SEU NOME DE USUARIO
+
+OU TENTE
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+Mais informações: https://stackoverflow.com/questions/15727912/sha-1-fingerprint-of-keystore-certificate
