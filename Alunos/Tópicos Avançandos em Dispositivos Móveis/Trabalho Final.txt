@@ -1,0 +1,12 @@
+Data de Entrega dia 18/06
+
+Via Meet (horário a negociar)
+
+DEVE SE CONTER UM DOS SEGUINTES:
+Sensores {GPS, Acelerometro, Camera, etc.}
+API do GoogleCloud {Google Maps, Firestore, Messaging, etc.}
+Retrofit
+MPAndroidChart
+Lottie
+Google Vision
+Volley
